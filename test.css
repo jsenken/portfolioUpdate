@@ -1,0 +1,38 @@
+.projImg{
+    border: green solid 1px;
+    text-align: center;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    float: left;
+}
+
+.container{
+    position: relative;
+}
+
+.projImg:hover{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    background-color: black;
+    z-index: 1;
+    color: white;
+}
+
+.shrink{
+    width: 100px;
+    height: 100px;
+}
+
+.hidden{
+    display: none;
+    color: white
+}
+
+.hidden:hover{
+    display: inline;
+}

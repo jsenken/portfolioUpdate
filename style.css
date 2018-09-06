@@ -1,0 +1,57 @@
+.namePlate{
+    text-align: center;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+}
+.nav-link{
+    color:white;
+}
+
+#portfolioTitle{
+    text-align: center;
+}
+
+#mostRecPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.carousel{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projImg{
+    padding-top:5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    border: white solid 1px;
+    height: 100px;
+    background-color: black;
+
+}
+
+.container{
+    padding: 0px;
+    width: 100%;
+    align-content: center;
+}
+
+.headshot{
+    height: 250px;
+    width: 175px;
+    margin: 15px;
+    float:left;
+}
+
+#contactBox{
+    margin-top: 55px;
+}
