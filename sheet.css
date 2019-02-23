@@ -1,0 +1,173 @@
+
+.infront {
+    top: 0%;
+    left: 0%;
+    transform: translate(29%, 0%);
+    z-index: 1;
+  }
+
+.head{
+    border-radius: 40%;
+}
+
+#myName,#welcome{
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+}
+#welcome2{
+    font-family: 'Kalam', cursive;
+}
+
+#pool{
+    height:25px;
+}
+
+
+.hex {
+    float: left;
+    margin-left: 3px;
+    margin-bottom: -26px;
+    font-family: 'Yellowtail', cursive;
+    color: whitesmoke;
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.hex:hover {
+  cursor: pointer;
+}
+
+.hex:hover .top {
+  border-bottom-color: gold;
+}
+
+.hex:hover .middle {
+ background: gold;
+ color: black;
+}
+
+.hex:hover .bottom {
+  border-top-color: gold;  
+}
+
+.hex:active .infront {
+    display: none;
+  }
+
+.hex .top {
+    width: 0;
+    border-bottom: 30px solid black;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .middle {
+    width: 104px;
+    height: 60px;
+    background: black;
+}
+.hex .bottom {
+    width: 0;
+    border-top: 30px solid black;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex-row {
+    clear: left;
+}
+.hex-row.even {
+    margin-left: 53px;
+}
+
+#title{
+    justify-content: center;
+    align-content: center;
+}
+
+#secondHalf{
+    border-top: 2px black solid;
+}
+
+.footer{
+    height: 60px;
+    background-color: black;
+    color: whitesmoke;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    max-width: 100%;
+    align-content: center;
+}
+
+#portfolio{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.filler{
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#ppFiller{
+    display: none;
+}
+
+#bsFiller{
+    display: none;
+}
+
+#nsFiller{
+    display: none;
+}
+
+#gtFiller{
+    display: none;
+}
+
+#naFiller{
+    display: none;
+}
+
+#baFiller{
+    display: none;
+}
+
+#brFiller{
+    display: none;
+}
+#trFiller{
+    display: none;
+}
+#dkFiller{
+    display: none;
+}
+#ffFiller{
+    display: none;
+}
+
+.display{
+    width: 100%;
+}
+
+.desc{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.buzz{
+    height: 150px;
+}
