@@ -136,6 +136,13 @@ body{
 #bsFiller{
     display: none;
 }
+#bsH{
+    font-family: 'Days One', sans-serif;
+    color: fuchsia;
+}
+#bsD{
+    background-color: fuchsia;
+}
 
 #nsFiller{
     display: none;
@@ -154,25 +161,87 @@ body{
     display: none;
 }
 
+#gtH{
+    font-family: 'Patrick Hand', cursive;
+    color: chocolate;
+}
+
+#gtD{
+    background-color: chocolate;
+}
+
 #naFiller{
     display: none;
+}
+
+#nbaH{
+    font-family: 'Russo One', sans-serif;
+    color:black;
+}
+
+#nbaD{
+    background-color: black;
 }
 
 #baFiller{
     display: none;
 }
 
+#baH{
+    font-family: 'Patua One', cursive;
+    color: orange;
+}
+
+#baD{
+    background-color: orange;
+}
+
 #brFiller{
     display: none;
 }
+
+#brH{
+    font-family: 'Bangers', cursive;
+    color: gray;
+}
+
+#brD{
+    background-color: gray;
+}
+
 #trFiller{
     display: none;
 }
+
+#otH{
+    font-family: 'Glegoo', serif;
+    color: brown;
+}
+
+#otD{
+    background-color: brown;
+}
+
 #dkFiller{
     display: none;
 }
+#dtH{
+    font-family: 'Boogaloo', cursive;
+    color: red;
+}
+#dtD{
+    background-color: red;
+}
+
 #ffFiller{
     display: none;
+}
+#ffH{
+    font-family: 'Titan One', cursive;
+    color: rgb(31, 31, 143);
+}
+#ffD{
+    background-color: rgb(31, 31, 143);
 }
 
 .display{
