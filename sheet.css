@@ -14,7 +14,7 @@
     font-family: 'Kalam', cursive;
     font-weight: bold;
 }
-#welcome2{
+body{
     font-family: 'Kalam', cursive;
 }
 
@@ -124,12 +124,30 @@
     display: none;
 }
 
+#poolPartyH{
+    font-family: 'Fredoka One', cursive;
+    color: rgb(16, 134, 245);
+}
+
+#ppD{
+    background-color: rgb(16, 134, 245);
+}
+
 #bsFiller{
     display: none;
 }
 
 #nsFiller{
     display: none;
+}
+
+#scraperH{
+    font-family: 'Alfa Slab One', cursive;
+    color: green;
+}
+
+#nsD{
+    background-color: green;
 }
 
 #gtFiller{
